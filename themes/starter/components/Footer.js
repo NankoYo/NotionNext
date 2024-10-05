@@ -125,12 +125,31 @@ export const Footer = props => {
                   <p className='text-base text-gray-7'>
                     Designed and Developed by
                     <a
-                      href='https://github.com/tangly1024/NotionNext'
+                      href='https://smartPages.nankoyo.com/'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      NotionNext {siteConfig('VERSION')}
+                      SmartPages {siteConfig('VERSION')}
                     </a>
+                     <br />
+                      Copyright © 2023 - 现在
+                    <a
+                      href='https://vallengine.com/'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      vallengine
+                    </a>
+                    All Rights Reserved.
+                      <br />
+                    <div
+                    className="text-base text-gray-7"
+                    id="hitokoto"
+                      />
+                    <div
+                    className="text-base text-gray-7"
+                    id="cdn" 
+                      />
                   </p>
                 </div>
               </div>
