@@ -285,7 +285,7 @@ const CONFIG = {
     {
       IMAGE: '/images/starter/brands/tailgrids.svg',
       IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
+      URL: 'https://tailgrids.com/',
       TITLE: 'tailgrids'
     }
   ],
