@@ -14,8 +14,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_2: '云谷引擎（Vallengine）是一家专注于提供全面云计算服务的公司，我们的宗旨是通过创新技术简化IT基础设施，释放客户的创新潜能。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL:
-    '', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: '/signin', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: '/images/starter/github.svg', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
