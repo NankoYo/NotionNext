@@ -61,7 +61,7 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    'SmartPages 通过提供丰富多样的专业模板供用户选择，支持灵活定制模板的布局、颜色和字体等。 <br /> <br /> 同时采用可视化编辑工具，让用户可轻松拖放添加内容并便捷编辑，帮助用户快速、便捷地创建高质量、功能丰富且具有个性化的网站。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://smartpages.nankoyo.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
