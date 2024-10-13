@@ -103,16 +103,6 @@ export const Header = props => {
                       {siteConfig('STARTER_NAV_BUTTON_2_TEXT')}
                     </a>
                   </div>
-      <div className="banner-container">
-        <div className="banner bg-indigo-500 text-white py-6 px-8 rounded-lg shadow-lg flex justify-between items-center">
-          <p className="text-lg font-semibold">限时特惠，不容错过！</p>
-          <button className="bg-gray-300 text-indigo-500 py-2 px-4 rounded-lg hover:bg-gray-400 transition duration-300">
-            了解更多
-          </button>
-          <button className="text-white hover:text-gray-300 transition duration-300 opacity-70 hover:opacity-100 transform hover:scale-110 close-btn">
-            ×
-          </button>
-        </div>
                 )}
               </div>
             </div>
