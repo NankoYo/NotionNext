@@ -19,7 +19,7 @@ export const Banner = ({ title, description }) => {
                   {description}
                 </p>
 
-                <ul className="flex items-center justify-center gap-[10px]">
+                {/* <ul className="flex items-center justify-center gap-[10px]">
                 <li>
                   <a
                     href="index.html"
@@ -41,7 +41,7 @@ export const Banner = ({ title, description }) => {
   <p className="bg-yellow-400 text-black p-4 flex justify-between items-center">新功能上线！快来体验。</p>
   <button onClick={closeBanner}>关闭</button>
               </li>
-              </ul>
+              </ul> */}
               </div>
             </div>
           </div>
