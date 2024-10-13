@@ -37,11 +37,11 @@ export const Banner = ({ title, description }) => {
                     Blog Details
                   </a>
                 </li>
+                <li> 
+  <p className="bg-yellow-400 text-black p-4 flex justify-between items-center">新功能上线！快来体验。</p>
+  <button onClick={closeBanner}>关闭</button>
+              </li>
               </ul> */}
-              <div className="bg-yellow-400 text-black p-4 flex justify-between items-center">
-              <p>新功能上线！快来体验。</p>
-              <button onClick={closeBanner}>关闭</button>
-                </div>
               </div>
             </div>
           </div>
