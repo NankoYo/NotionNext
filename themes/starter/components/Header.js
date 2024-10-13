@@ -103,6 +103,10 @@ export const Header = props => {
                       {siteConfig('STARTER_NAV_BUTTON_2_TEXT')}
                     </a>
                   </div>
+                <div className="bg-yellow-400 text-black p-4 flex justify-between items-center">
+                <p>新功能上线！快来体验。</p>
+                <button onClick={closeBanner}>关闭</button>
+                </div>
                 )}
               </div>
             </div>
