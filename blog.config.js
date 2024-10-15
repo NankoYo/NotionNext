@@ -22,7 +22,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'SmartPage是一个简单易用的工具，用于创建静态网页。它具有简洁的界面和丰富的功能，可以帮助用户快速构建漂亮的网站，无需深入了解编程知识。使用NanKoYo，您可以轻松地添加文本、图片、链接和其他元素，定制您的网页设计，让您的内容更具吸引力。无论您是个人博客、企业网站还是在线简历，NanKoYo都能满足您的需求，并帮助您在互联网上展示自己或您的业务。',
 
-  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
+  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NanKoYo', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '有钱人终成眷属，没钱人亲眼目睹。', // 作者简介
