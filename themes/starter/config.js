@@ -177,7 +177,7 @@ const CONFIG = {
   ],
 
   //   FAQ 常见问题模块
-  STARTER_FAQ_ENABLE: false, // 常见问题模块开关
+  STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: '常见问题解答',
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -293,7 +293,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'Smart Pages 是一款强大的静态网页生成器软件。它具备高效的图形技术、丰富的插件与商城资源以及多样的接口。拥有直观易用的界面，在网页设计、编辑与生成方面表现出色。',
+  STARTER_FOOTER_SLOGAN: 'SmartPages 是一款强大的静态网页生成器软件。它具备高效的图形技术、丰富的插件与商城资源以及多样的接口。拥有直观易用的界面，在网页设计、编辑与生成方面表现出色。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
