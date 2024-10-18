@@ -7,29 +7,6 @@ const Footer = ({ title }) => {
   const since = siteConfig('SINCE')
   const copyrightDate =
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
-  const [cdnData, setCdnData] = useState({})
-    
-   useEffect(() => {
-    (async () => {
-      try {
-        const response = await fetch("https://blog.nankoyo.com/cdn-cgi/trace")
-        if (response.ok) {
-          const data = await response.text()
-          const lines = data.split("\n")
-          let dataObj = {}
-          lines.forEach(line => {
-            if (line) {
-              const parts = line.split("=")
-              dataObj[parts[0]] = parts[1]
-            }
-          })
-          setCdnData(dataObj)
-        }
-      } catch (error) {
-        console.error("获取数据出错:", error)
-      }
-    })()
-  }, [])
 
   return (
     <footer className='relative flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm'>
@@ -66,57 +43,42 @@ const Footer = ({ title }) => {
           .
           </div>
           <br />
-          <div
-          className="mx - 1 animate - pulse "
-          id="hitokoto"
-        >
-          {cdnData.loc && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              CDN节点: {cdnData.loc}
-            </a>
-          )}
-          {cdnData.colo && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              访客国别: {cdnData.colo}
-            </a>
-          )}
-          {cdnData.http && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              加密方式: {cdnData.http}
-            </a>
-          )}
-          {cdnData['cf - ray'] && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              回源节点: 172.70.
-              {cdnData['cf - ray'].split('-')[1]}.
-              {cdnData['cf - ray'].split('-')[2]}
-              (美国CloudFlare节点)
-            </a>
-          )}
-          {cdnData.ip && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              本机IP: {cdnData.ip}
-            </a>
-          )}
-          {cdnData.gzip && (
-            <a
-              className='underline font - bold dark:text - gray - 300 '
-            >
-              压缩方式: {cdnData.gzip === 'on'? '启用' : '未启用'}
-            </a>
-          )}
-        </div>
-        
+  <div
+  className="mx-1 animate-pulse "
+  id="hitokoto"
+        />
+您的IP:<div
+  className="mx-1 animate-pulse "
+  id="ip"
+/>
+用户代理:<div
+  className="mx-1 animate-pulse "
+  id="uag"
+/>
+访客国别:<div
+  className="mx-1 animate-pulse "
+  id="colo"
+/>
+CDN节点: <div
+  className="mx-1 animate-pulse "
+  id="loc"
+/>
+TLS版本:<div
+  className="mx-1 animate-pulse "
+  id="tls"
+/>
+SNI:<div
+  className="mx-1 animate-pulse "
+  id="sni"
+/>
+HTTP版本:<div
+  className="mx-1 animate-pulse "
+  id="http"
+/>
+分流ID: <div
+  className="mx-1 animate-pulse "
+  id="fl"
+/>
 
         <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
