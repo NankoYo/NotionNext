@@ -13,7 +13,7 @@ const Footer = ({ title }) => {
   useEffect(() => {
     (async () => {
       try {
-        const response = await fetch("https://blog.nankoyo.com/cdn-cgi/trace")
+        const response = await fetch("https://your - domain.com/cdn - cgi/trace")
         if (response.ok) {
           const data = await response.text()
           const lines = data.split("\n")
@@ -95,31 +95,19 @@ const Footer = ({ title }) => {
           {/* <h1 className='text - xs pt - 4 text - light - 400 dark:text - gray - 400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1> */}
         </div>
       </div>
-      {cdnData.loc && (
-        <p className="mx - 1 animate - pulse">CDN节点: {cdnData.loc}</p>
-      )}
-      {cdnData.colo && (
-        <p className="mx - 1 animate - pulse">访客国别: {cdnData.colo}</p>
-      )}
-      {cdnData.http && (
-        <p className="mx - 1 animate - pulse">加密方式: {cdnData.http}</p>
-      )}
+      {cdnData.loc && <p>CDN节点: {cdnData.loc}</p>}
+      {cdnData.colo && <p>访客国别: {cdnData.colo}</p>}
+      {cdnData.http && <p>加密方式: {cdnData.http}</p>}
       {cdnData['cf - ray'] && (
-        <p className="mx - 1 animate - pulse">
+        <p>
           回源节点: 172.70.
           {cdnData['cf - ray'].split('-')[1]}.
           {cdnData['cf - ray'].split('-')[2]}
           (美国CloudFlare节点)
         </p>
       )}
-      {cdnData.ip && (
-        <p className="mx - 1 animate - pulse">本机IP: {cdnData.ip}</p>
-      )}
-      {cdnData.gzip && (
-        <p className="mx - 1 animate - pulse">
-          压缩方式: {cdnData.gzip === 'on'? '启用' : '未启用'}
-        </p>
-      )}
+      {cdnData.ip && <p>本机IP: {cdnData.ip}</p>}
+      {cdnData.gzip && <p>压缩方式: {cdnData.gzip === 'on'? '启用' : '未启用'}</p>}
     </footer>
   )
 }
