@@ -64,13 +64,27 @@ const Footer = ({ title }) => {
             className='underline font - bold dark:text - gray - 300 '>
             SmartPages {siteConfig('VERSION')}
           </a>
-        .
+       .
         </div>
         <br />
         <div
           className="mx - 1 animate - pulse "
           id="hitokoto"
-        />
+        >
+          {cdnData.loc && <p>CDN节点: {cdnData.loc}</p>}
+          {cdnData.colo && <p>访客国别: {cdnData.colo}</p>}
+          {cdnData.http && <p>加密方式: {cdnData.http}</p>}
+          {cdnData['cf - ray'] && (
+            <p>
+              回源节点: 172.70.
+              {cdnData['cf - ray'].split('-')[1]}.
+              {cdnData['cf - ray'].split('-')[2]}
+              (美国CloudFlare节点)
+            </p>
+          )}
+          {cdnData.ip && <p>本机IP: {cdnData.ip}</p>}
+          {cdnData.gzip && <p>压缩方式: {cdnData.gzip === 'on'? '启用' : '未启用'}</p>}
+        </div>
 
 
         <div id='footer - bottom - right'>
@@ -95,19 +109,6 @@ const Footer = ({ title }) => {
           {/* <h1 className='text - xs pt - 4 text - light - 400 dark:text - gray - 400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1> */}
         </div>
       </div>
-      {cdnData.loc && <p>CDN节点: {cdnData.loc}</p>}
-      {cdnData.colo && <p>访客国别: {cdnData.colo}</p>}
-      {cdnData.http && <p>加密方式: {cdnData.http}</p>}
-      {cdnData['cf - ray'] && (
-        <p>
-          回源节点: 172.70.
-          {cdnData['cf - ray'].split('-')[1]}.
-          {cdnData['cf - ray'].split('-')[2]}
-          (美国CloudFlare节点)
-        </p>
-      )}
-      {cdnData.ip && <p>本机IP: {cdnData.ip}</p>}
-      {cdnData.gzip && <p>压缩方式: {cdnData.gzip === 'on'? '启用' : '未启用'}</p>}
     </footer>
   )
 }
