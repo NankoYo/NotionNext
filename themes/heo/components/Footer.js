@@ -43,44 +43,17 @@ const Footer = ({ title }) => {
           .
           </div>
           <br />
-  <div
-  className="mx-1 animate-pulse "
-  id="hitokoto"
-        />
-您的IP:<div
-  className="mx-1 animate-pulse "
-  id="ip"
-/>
-用户代理:<div
-  className="mx-1 animate-pulse "
-  id="uag"
-/>
-访客国别:<div
-  className="mx-1 animate-pulse "
-  id="colo"
-/>
-CDN节点: <div
-  className="mx-1 animate-pulse "
-  id="loc"
-/>
-TLS版本:<div
-  className="mx-1 animate-pulse "
-  id="tls"
-/>
-SNI:<div
-  className="mx-1 animate-pulse "
-  id="sni"
-/>
-HTTP版本:<div
-  className="mx-1 animate-pulse "
-  id="http"
-/>
-分流ID: <div
-  className="mx-1 animate-pulse "
-  id="fl"
-/>
-
-        <div id='footer-bottom-right'>
+<div id="hitokoto" className="mx-1 animate-pulse "></div>
+<div id="ip" className="mx-1 animate-pulse "></div>
+<div id="uag" className="mx-1 animate-pulse "></div>
+<div id="colo" className="mx-1 animate-pulse "></div>
+<div id="loc" className="mx-1 animate-pulse "></div>
+<div id="tls" className="mx-1 animate-pulse "></div>
+<div id="sni" className="mx-1 animate-pulse "></div>
+<div id="http" className="mx-1 animate-pulse "></div>
+<div id="fl" className="mx-1 animate-pulse "></div>
+            
+          <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
               <i className='fas fa-shield-alt' />{' '}
