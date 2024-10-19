@@ -43,15 +43,14 @@ const Footer = ({ title }) => {
           .
           </div>
           <br />
-<div id="hitokoto" className="mx-1 animate-pulse "></div>
-<div id="ip" className="mx-1 animate-pulse "></div>
-<div id="uag" className="mx-1 animate-pulse "></div>
-<div id="colo" className="mx-1 animate-pulse "></div>
-<div id="loc" className="mx-1 animate-pulse "></div>
-<div id="tls" className="mx-1 animate-pulse "></div>
-<div id="sni" className="mx-1 animate-pulse "></div>
-<div id="http" className="mx-1 animate-pulse "></div>
-<div id="fl" className="mx-1 animate-pulse "></div>
+<div
+  className="mx-1 animate-pulse "
+  id="cdn"
+/>
+<div        
+className="mx - 1 animate - pulse "
+id="hitokoto"
+/>
             
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
