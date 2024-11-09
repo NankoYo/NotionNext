@@ -29,17 +29,31 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '}
+          <a
+            href='https://vallengine.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            Vallengine
+          </a>{' '}
+          <i className='fas fa-copyright' />{' '}
           {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
           <a
-            href={siteConfig('LINK')}
+            href='https://smartpages.nankoyo.com/'
             className='underline font-bold dark:text-gray-300 '>
-            {siteConfig('AUTHOR')}
+            SmartPages {siteConfig('VERSION')}
           </a>
           .
-        </div>
-
-        <div id='footer-bottom-right'>
+          </div>
+          <br />
+<div
+  className="mx-1 animate-pulse "
+  id="cdn"
+/>
+<div        
+className="mx - 1 animate - pulse "
+id="hitokoto"
+/>
+            
+          <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
               <i className='fas fa-shield-alt' />{' '}
