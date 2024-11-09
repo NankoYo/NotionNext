@@ -90,7 +90,7 @@ const BLOG = {
   ],
   FONT_AWESOME:
     process.env.NEXT_PUBLIC_FONT_AWESOME_PATH ||
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    'https://s4.zstatic.net/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
   // END ************网站字体*****************
   // 路径和组件映射，不同路径分别展示主题的什么组件
   LAYOUT_MAPPINGS: {
@@ -133,7 +133,7 @@ const BLOG = {
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_TAG:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || true, // 是否显示标签
 // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: ['https://cdnjs.nankoyo.com/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cf-cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto','https://cdn-cookieyes.com/client_data/02d7076f1d133e34f26dc544/script.js','https://cdnjs.nankoyo.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js','https://cdn.nankoyo.com/public/cache/star/js/announcement.js'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://cdn.jsdmirror.com/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cf-cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto','https://cdn-cookieyes.com/client_data/02d7076f1d133e34f26dc544/script.js','https://cdn.jsdmirror.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js','https://cdn.nankoyo.com/public/cache/star/js/announcement.js'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
   LAYOUT_SIDEBAR_REVERSE:
@@ -149,7 +149,7 @@ const BLOG = {
   // PrismJs 代码相关
   PRISM_JS_PATH: 'https://npm.elemecdn.com/prismjs@1.29.0/components/',
   PRISM_JS_AUTO_LOADER:
-    'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
+    'https://s4.zstatic.net/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.js',
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
@@ -170,11 +170,11 @@ const BLOG = {
   // Mermaid 图表CDN
   MERMAID_CDN:
     process.env.NEXT_PUBLIC_MERMAID_CDN ||
-    'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js', // CDN
+    'https://s4.zstatic.net/ajax/libs/mermaid/10.2.4/mermaid.min.js', // CDN
   // QRCodeCDN
   QR_CODE_CDN:
     process.env.NEXT_PUBLIC_QR_CODE_CDN ||
-    'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js',
+    'https://s4.zstatic.net/ajax/libs/qrcodejs/1.0.0/qrcode.min.js',
   BACKGROUND_LIGHT: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
   BACKGROUND_DARK: '#000000', // use hex value, don't forget '#'
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
@@ -457,7 +457,7 @@ const BLOG = {
   // ANIMATE.css 动画
   ANIMATE_CSS_URL:
     process.env.NEXT_PUBLIC_ANIMATE_CSS_URL ||
-    'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', // 动画CDN
+    'https://s4.zstatic.net/ajax/libs/animate.css/4.1.1/animate.min.css', // 动画CDN
   // 网站图片
   IMG_LAZY_LOAD_PLACEHOLDER:
     process.env.NEXT_PUBLIC_IMG_LAZY_LOAD_PLACEHOLDER ||
