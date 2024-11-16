@@ -1,13 +1,14 @@
 import { BeiAnGongAn } from '@/components/BeiAnGongAn'
-import CopyRightDate from '@/components/CopyRightDate'
-import PoweredBy from '@/components/PoweredBy'
 import { siteConfig } from '@/lib/config'
 import SocialButton from './SocialButton'
-/**
- * 页脚
- * @returns
- */
-const Footer = () => {
+
+const Footer = ({ title }) => {
+  const d = new Date()
+  const currentYear = d.getFullYear()
+  const since = siteConfig('SINCE')
+  const copyrightDate =
+    parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
+
   return (
     <footer className='relative flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm'>
       {/* 颜色过度区 */}
@@ -28,11 +29,31 @@ const Footer = () => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          <PoweredBy />
-          <CopyRightDate />
-        </div>
-
-        <div id='footer-bottom-right'>
+          <a
+            href='https://vallengine.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            Vallengine
+          </a>{' '}
+          <i className='fas fa-copyright' />{' '}
+          {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
+          <a
+            href='https://smartpages.nankoyo.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            SmartPages {siteConfig('VERSION')}
+          </a>
+          .
+          </div>
+          <br />
+<div
+  className="mx-1 animate-pulse "
+  id="cdn"
+/>
+<div        
+className="mx - 1 animate - pulse "
+id="hitokoto"
+/>
+            
+          <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
               <i className='fas fa-shield-alt' />{' '}
