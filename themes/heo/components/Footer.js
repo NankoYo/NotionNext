@@ -32,7 +32,7 @@ const Footer = ({ title }) => {
           <a
             href='https://vallengine.com/'
             className='underline font-bold dark:text-gray-300 '>
-            Vallengine
+            Vallengine（南科技术&晓婷网络）
           </a>{' '}
           <i className='fas fa-copyright' />{' '}
           {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
