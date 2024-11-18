@@ -177,30 +177,45 @@ const CONFIG = {
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
-    'SmartPages 由众多开源技术爱好者们共同合作完成，感谢每一位贡献者',
+    'SmartPages由南科技术运营，以下排名不分先后。',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
       STARTER_TEAM_ITEM_AVATAR:
         'https://gravatar.nankoyo.com/avatar/83351c9c99ee87ff272f1669557b02fa?s=640&d=identicon',
-      STARTER_TEAM_ITEM_NICKNAME: 'CoKe',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_NICKNAME: '南枫.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '创始人'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://thirdqq.qlogo.cn/g?b=sdk&nk=3594399324&s=640',
-      STARTER_TEAM_ITEM_NICKNAME: 'Move',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+      STARTER_TEAM_ITEM_NICKNAME: '晓婷.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '首席执行官（CEO）'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://gravatar.nankoyo.com/avatar/d5b7cfe6b404de25f3e5e4182bbf2962866c844fadf0bcdb844abc1a45110efa?s=460&d=identicon',
-      STARTER_TEAM_ITEM_NICKNAME: 'Slient',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+      STARTER_TEAM_ITEM_NICKNAME: 'Slient.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '首席技术官（CTO）'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+      STARTER_TEAM_ITEM_AVATAR: 'https://gravatar.nankoyo.com/avatar/d5b7cfe6b404de25f3e5e4182bbf2962866c844fadf0bcdb844abc1a45110efa?s=460&d=identicon',
+      STARTER_TEAM_ITEM_NICKNAME: 'Lovi.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '首席财务官（CFO）'
+    },
+    {
+      STARTER_TEAM_ITEM_AVATAR: 'https://thirdqq.qlogo.cn/g?b=sdk&nk=3932796034&s=640',
+      STARTER_TEAM_ITEM_NICKNAME: 'Slient.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '首席营销官（CMO）'
+    },
+    {
+      STARTER_TEAM_ITEM_AVATAR: 'https://thirdqq.qlogo.cn/g?b=sdk&nk=431738813&s=640',
+      STARTER_TEAM_ITEM_NICKNAME: 'Coke',
+      STARTER_TEAM_ITEM_DESCRIPTION: '联合创始人'
+    },
+    {
+      STARTER_TEAM_ITEM_AVATAR: 'https://thirdqq.qlogo.cn/g?b=sdk&nk=3764011033&s=640',
+      STARTER_TEAM_ITEM_NICKNAME: 'Movie.',
+      STARTER_TEAM_ITEM_DESCRIPTION: '首席运营官（COO）'
     }
   ],
 
