@@ -198,7 +198,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION: '首席技术官（CTO）'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: 'https://gravatar.nankoyo.com/avatar/d5b7cfe6b404de25f3e5e4182bbf2962866c844fadf0bcdb844abc1a45110efa?s=460&d=identicon',
+      STARTER_TEAM_ITEM_AVATAR: 'https://gravatar.nankoyo.com/avatar/13f4fce9d4994d742a0ce7d98ab99600?s=640',
       STARTER_TEAM_ITEM_NICKNAME: 'Lovi.',
       STARTER_TEAM_ITEM_DESCRIPTION: '首席财务官（CFO）'
     },
