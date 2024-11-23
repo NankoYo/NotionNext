@@ -308,12 +308,12 @@ const BLOG = {
     process.env.NEXT_PUBLIC_COMMENT_ARTALK_CSS ||
     'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.9.1/Artalk.css', // ArtalkServert css cdn
   // twikoo
-  COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || '', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
+  COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://twikoo.nankoyo.com', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
   COMMENT_TWIKOO_COUNT_ENABLE:
-    process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || false, // 博客列表是否显示评论数
+    process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || true, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL ||
-    'https://cdn.jsdmirror.com/npm/twikoo@1.6.39/dist/twikoo.all.min.js', // twikoo客户端cdn
+    'https://s4.zstatic.net/ajax/libs/twikoo/1.6.40/twikoo.all.min.js', // twikoo客户端cdn
   // utterance
   COMMENT_UTTERRANCES_REPO:
     process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || '', // 你的代码仓库名， 例如我是 'tangly1024/NotionNext'； 更多文档参考 https://utteranc.es/
