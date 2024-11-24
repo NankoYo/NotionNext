@@ -175,7 +175,7 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的管理团队',
+  STARTER_TEAM_TEXT_1: '领先的软件公司南科网络的全资子公司',
   STARTER_TEAM_TEXT_2:
     '专注于南科技术旗下云上业务的商业化运营，为用户提供被广泛验证的生产力工具。',
 
