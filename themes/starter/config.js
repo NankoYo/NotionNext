@@ -74,39 +74,39 @@ const CONFIG = {
   STARTER_ABOUT_TIPS_3: '拥有数年运营经验',
 
   // 首页价格区块
-  STARTER_PRICING_ENABLE: false, // 价格区块开关
+  STARTER_PRICING_ENABLE: true, // 价格区块开关
   STARTER_PRICING_TITLE: '价格表',
   STARTER_PRICING_TEXT_1: '很棒的定价计划',
   STARTER_PRICING_TEXT_2:
     '我们制定了灵活的付费模式，您可以按需选择。',
 
-  STARTER_PRICING_1_TITLE: '入门版',
-  STARTER_PRICING_1_PRICE: '19.9',
+  STARTER_PRICING_1_TITLE: '免费版',
+  STARTER_PRICING_1_PRICE: '0',
   STARTER_PRICING_1_PRICE_CURRENCY: '$',
   STARTER_PRICING_1_PRICE_PERIOD: '每月',
   STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '所有的主题,免费更新,帮助手册', // 英文逗号隔开
+  STARTER_PRICING_1_FEATURES: '应用商店,网站管理,数据库管理,容器管理,文件管理,服务器监控,防火墙,进程管理,SSH 管理,计划任务,日志审计', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_1_BUTTON_URL:
     '/',
 
   STARTER_PRICING_2_TAG: '推荐',
-  STARTER_PRICING_2_TITLE: '基础版',
+  STARTER_PRICING_2_TITLE: '专业版',
   STARTER_PRICING_2_PRICE: '39.9',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
   STARTER_PRICING_2_PRICE_PERIOD: '每月',
   STARTER_PRICING_2_HEADER: '功能点',
-  STARTER_PRICING_2_FEATURES: '包含入门版,项目源码,内部社群,技术咨询,SEO优化', // 英文逗号隔开
+  STARTER_PRICING_2_FEATURES: '包含免费版,WAF防火墙,网站防篡改,自定义LOGO,GPU监控,网站监控报表,自定义主题配色,内网代理模式,定时病毒扫描,短信告警,订阅期内工单支持,短信额度100条', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_2_BUTTON_URL:
     '/',
 
-  STARTER_PRICING_3_TITLE: '高级版',
+  STARTER_PRICING_3_TITLE: '企业版',
   STARTER_PRICING_3_PRICE: '59.9',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
   STARTER_PRICING_3_PRICE_PERIOD: '每月',
   STARTER_PRICING_3_HEADER: '功能点',
-  STARTER_PRICING_3_FEATURES: '包含基础版,功能定制开发', // 英文逗号隔开
+  STARTER_PRICING_3_FEATURES: '包含免费版,包含专业版,企业级防篡改,多用户管理,运维平台,服务器安全扫描,网站测速,数据库运维工具,站点加速,站点优化,企业级备份,防入侵,安全防护,资源监视器', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_3_BUTTON_URL:
     '/',
@@ -152,32 +152,32 @@ const CONFIG = {
   
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '主要服务',
-  STARTER_FAQ_TEXT_1: '云计算如何简化IT基础设施并加速创新',
-  STARTER_FAQ_TEXT_2: '简化复杂性，释放创新潜能',
+  STARTER_FAQ_TITLE: '常见问题',
+  STARTER_FAQ_TEXT_1: '我们列举了一些你可能关注的话题。',
+  STARTER_FAQ_TEXT_2: '如果没能找你想要的信息，可以浏览帮助文档获取更多支持。',
 
-  STARTER_FAQ_1_QUESTION: '云服务器',
+  STARTER_FAQ_1_QUESTION: '我购买的是正版授权软件吗？',
   STARTER_FAQ_1_ANSWER:
-    '灵活、可扩展的虚拟服务器<br /> <br />- 快速部署，轻松扩展<br /> <br />- 多种操作系统和配置选项<br /> <br />- 高级安全特性和自动备份',
+    '是的。南科技术是南科网络全资子公司。所售产品均拥有完整版权及原厂售后支持，可以放心购买。',
 
-  STARTER_FAQ_2_QUESTION: '云存储',
+  STARTER_FAQ_2_QUESTION: '什么是许可证？',
   STARTER_FAQ_2_ANSWER:
-    '安全、可靠的数据存储解决方案<br /> <br />- 可扩展性，满足不断增长的需求<br /> <br />- 冗余存储，确保数据持久性<br /> <br />- 易于使用的API和集成',
+    '许可证是你购买南科产品的可用凭证，用以导入关联应用，激活产品权益。 许可证跟随南科订单发放，一个订单可包含多个南科产品，一个产品对应一个许可证',
 
-  STARTER_FAQ_3_QUESTION: '数据库服务',
+  STARTER_FAQ_3_QUESTION: '许可证限制使用设备吗？',
   STARTER_FAQ_3_ANSWER:
-    '高性能的数据库托管服务<br /> <br />- 支持SQL和NoSQL数据库<br /> <br />- 自动化维护和性能优化<br /> <br />- 灵活的备份和恢复选项',
+    '一个许可证同一时段仅支持绑定激活一个设备，但可以在不同的设备之间换绑。',
 
-  STARTER_FAQ_4_QUESTION: '大数据分析',
+  STARTER_FAQ_4_QUESTION: '是否支持退款？',
   STARTER_FAQ_4_ANSWER:
-    '强大的数据洞察和分析工具<br /> <br />- 处理和分析大规模数据集<br /> <br />- 机器学习和预测分析工具<br /> <br />- 实时数据流和处理能力',
+    '由于软件授权的虚拟属性，因此不支持退款，感谢您的理解与支持。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TEXT_1: '我们的管理团队',
   STARTER_TEAM_TEXT_2:
-    'Vallengine由众多开源技术爱好者们共同合作完成，感谢每一位贡献者</a>',
+    '专注于南科技术旗下云上业务的商业化运营，为用户提供被广泛验证的生产力工具。',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -282,7 +282,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '简化复杂性，释放创新潜能。',
+  STARTER_FOOTER_SLOGAN: '专注于南科技术旗下云上业务的商业化运营，为用户提供被广泛验证的生产力工具。',
 
   
   // 页脚三列菜单组
