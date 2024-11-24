@@ -152,32 +152,32 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: '常见问题',
+  STARTER_FAQ_TEXT_1: '我们列举了一些你可能关注的话题。',
+  STARTER_FAQ_TEXT_2: '如果没能找你想要的信息，可以浏览帮助文档获取更多支持。',
 
-  STARTER_FAQ_1_QUESTION: 'Smartpages 有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: '我购买的是正版授权软件吗？',
   STARTER_FAQ_1_ANSWER:
-    'Smartpages提供了<a href="https://smartpages.nankoyo.com/how-to-question" className="underline">帮助文档</a>来协助您完成网站的搭建部署',
+    '是的。南科技术是南科网络全资子公司。所售产品均拥有完整版权及原厂售后支持，可以放心购买。',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: '什么是许可证？',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Smartpages中之间添加或修改类型为Post的页面，内容将被实时同步在站点中。',
+    '许可证是你购买南科产品的可用凭证，用以导入关联应用，激活产品权益。 许可证跟随南科订单发放，一个订单可包含多个南科产品，一个产品对应一个许可证',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: '许可证限制使用设备吗？',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Smartpages后台的Deployments中找到错误日志。',
+    '一个许可证同一时段仅支持绑定激活一个设备，但可以在不同的设备之间换绑。',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: '是否支持退款？',
   STARTER_FAQ_4_ANSWER:
-    '先检查SmartPages_ID是否正确配置，其次由于网页的每个页面都有独立缓存，刷新网页后即可解决',
+    '由于软件授权的虚拟属性，因此不支持退款，感谢您的理解与支持。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TITLE: '管理团队',
+  STARTER_TEAM_TEXT_1: '领先的软件公司南科网络的全资子公司',
   STARTER_TEAM_TEXT_2:
-    'SmartPages由南科技术运营，以下排名不分先后。',
+    '专注于南科技术旗下云上业务的商业化运营，为用户提供被广泛验证的生产力工具。',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
