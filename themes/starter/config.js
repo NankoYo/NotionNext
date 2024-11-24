@@ -80,33 +80,33 @@ const CONFIG = {
   STARTER_PRICING_TEXT_2:
     '我们制定了灵活的付费模式，您可以按需选择。',
 
-  STARTER_PRICING_1_TITLE: '入门版',
-  STARTER_PRICING_1_PRICE: '19.9',
+  STARTER_PRICING_1_TITLE: '免费版',
+  STARTER_PRICING_1_PRICE: '0',
   STARTER_PRICING_1_PRICE_CURRENCY: '$',
   STARTER_PRICING_1_PRICE_PERIOD: '每月',
   STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '所有的主题,免费更新,帮助手册', // 英文逗号隔开
-  STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_1_FEATURES: '网站管理,FTP管理,数据库管理,资源监控,文件管理,终端功能,计划任务,网页服务器搭建', // 英文逗号隔开
+  STARTER_PRICING_1_BUTTON_TEXT: '立即使用',
   STARTER_PRICING_1_BUTTON_URL:
     '/',
 
   STARTER_PRICING_2_TAG: '推荐',
-  STARTER_PRICING_2_TITLE: '基础版',
+  STARTER_PRICING_2_TITLE: '专业版',
   STARTER_PRICING_2_PRICE: '39.9',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
   STARTER_PRICING_2_PRICE_PERIOD: '每月',
   STARTER_PRICING_2_HEADER: '功能点',
-  STARTER_PRICING_2_FEATURES: '包含入门版,项目源码,内部社群,技术咨询,SEO优化', // 英文逗号隔开
+  STARTER_PRICING_2_FEATURES: '包含入门版,系统加固,网站防篡改程序,网站监控报表,Apache防火墙,Nginx防火墙,负载均衡,MySQL主从复制,异常监控推送,宝塔任务管理器,APP', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_2_BUTTON_URL:
     '/',
 
-  STARTER_PRICING_3_TITLE: '高级版',
+  STARTER_PRICING_3_TITLE: '企业版',
   STARTER_PRICING_3_PRICE: '59.9',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
   STARTER_PRICING_3_PRICE_PERIOD: '每月',
   STARTER_PRICING_3_HEADER: '功能点',
-  STARTER_PRICING_3_FEATURES: '包含基础版,功能定制开发', // 英文逗号隔开
+  STARTER_PRICING_3_FEATURES: '包含入门版,包含专业版,企业级防篡改,多用户管理,运维平台,服务器安全扫描,网站测速,数据库运维工具,站点加速,站点优化,企业级备份,防入侵,南科安全防护,资源监视器', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_3_BUTTON_URL:
     '/',
