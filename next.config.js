@@ -107,6 +107,11 @@ const nextConfig = {
       'p1.qhimg.com',
       'webmention.io',
       'ko-fi.com'
+      'gravatar.nankoyo.com'
+      'cdn.nankoyo.com'
+      'img.szgchw.cn'
+      'gravatar.nankoyo.com'
+      'img.tucang.cc'
     ]
   },
 
