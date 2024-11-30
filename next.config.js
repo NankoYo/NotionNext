@@ -106,11 +106,11 @@ const nextConfig = {
       'source.unsplash.com',
       'p1.qhimg.com',
       'webmention.io',
-      'ko-fi.com'
-      'gravatar.nankoyo.com'
-      'cdn.nankoyo.com'
-      'img.szgchw.cn'
-      'gravatar.nankoyo.com'
+      'ko-fi.com',
+      'gravatar.nankoyo.com',
+      'cdn.nankoyo.com',
+      'img.szgchw.cn',
+      'gravatar.nankoyo.com',
       'img.tucang.cc'
     ]
   },
