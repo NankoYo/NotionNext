@@ -131,29 +131,43 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
-                    Designed and Developed by
+                    © 2024 NanKoYo{' '}
                     <a
-                      href='https://smartPages.nankoyo.com/'
+                      href='https://smartpages.nankoyo.com/'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
                       SmartPages {siteConfig('VERSION')}
-                    </a>
-                     <br />
-                      Copyright © 2023 - 现在
-                    <a
-                      href='https://vallengine.com/'
+                    </a>{' '}
+                    丨
+                     <a
+                      href='https://www.vallengine.com/'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      vallengine（南科技术&晓婷网络）
-                    </a>
-                    All Rights Reserved.
+                      Vallengine
+                    </a>{' '}
+                     丨
+                     <a
+                      href='https://www.nankoyo.com/'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      南科技术
+                    </a>{' '}
+                     丨
+                     <a
+                      href='https://xt.nankoyo.com/'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      晓婷网络
+                    </a>{' '}
                       <br />
                     <div
                     className="text-base text-gray-7"
                     id="hitokoto"
-                      />
+                      />{' '}
                     <div
                     className="text-base text-gray-7"
                     id="cdn" 
