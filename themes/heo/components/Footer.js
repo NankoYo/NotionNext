@@ -29,19 +29,32 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          <a
-            href='https://vallengine.com/'
-            className='underline font-bold dark:text-gray-300 '>
-            Vallengine（南科技术&晓婷网络）
-          </a>{' '}
           <i className='fas fa-copyright' />{' '}
-          {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
+          {`${copyrightDate}`}丨<i className='mx-1 animate-pulse fas fa-heart' />{' '}
           <a
             href='https://smartpages.nankoyo.com/'
             className='underline font-bold dark:text-gray-300 '>
             SmartPages {siteConfig('VERSION')}
-          </a>
-          .
+          </a>{' '}
+          丨
+          <a
+            href='https://vallengine.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            Vallengine
+          </a>{' '}
+          丨
+          <a
+            href='https://www.nankoyo.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            南科技术
+          </a>{' '}
+          丨
+          <a
+            href='https://xt.nankoyo.com/'
+            className='underline font-bold dark:text-gray-300 '>
+            晓婷网络
+          </a>{' '}
+          提供云计算服务
           </div>
           <br />
 <div
