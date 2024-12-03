@@ -29,7 +29,7 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          2024{' '}<i className='fas fa-copyright' />{' '}
+          <i className='fas fa-copyright' />2024{' '}NanKoYo{' '}
           NanKoYo丨
           由{' '}
           <a
