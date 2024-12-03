@@ -149,7 +149,7 @@ export const Footer = props => {
                     </a>{' '}
                     丨
                      <a
-                      href='https://smartpages.nankoyo.com/'
+                      href='https://www.nankoyo.com/'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
