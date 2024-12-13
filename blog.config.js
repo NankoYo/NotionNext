@@ -134,7 +134,7 @@ const BLOG = {
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_TAG:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || true, // 是否显示标签
 // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: ['https://s4.zstatic.net/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cf-cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://s4.zstatic.net/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cloudflare_cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
   LAYOUT_SIDEBAR_REVERSE:
@@ -226,7 +226,7 @@ const BLOG = {
   MOUSE_FOLLOW_EFFECT_TYPE: 11, // 1-12
   MOUSE_FOLLOW_EFFECT_COLOR: '#ef672a', // 鼠标点击特效颜色 #xxxxxx 或者 rgba(r,g,b,a)
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
   // 动态彩带特效
