@@ -1,16 +1,16 @@
 {
-  "name": "notion-next",
+  "name": "Smartpages",
   "version": "4.7.12",
-  "homepage": "https://github.com/tangly1024/NotionNext.git",
+  "homepage": "https://smartpages.nankoyo.com",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/tangly1024/NotionNext.git"
   },
   "author": {
-    "name": "tangly",
-    "email": "mail@tangly1024.com",
-    "url": "http://tangly1024.com"
+    "name": "NanKoYo",
+    "email": "mail@nankoyo.com",
+    "url": "https://www.nankoyo.com"
   },
   "scripts": {
     "dev": "next dev",
