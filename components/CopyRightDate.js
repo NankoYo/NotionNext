@@ -16,7 +16,7 @@ export default function CopyRightDate() {
     <span>
             <div className='whitespace - nowrap flex items - center gap - x - 1'>
                 <i className='fas fa - copyright' />
-                <span>NanKoYo丨</span>
+                <a> 2024{"    "}©{"    "}NanKoYo{"    "}All{"    "}Rights{"    "}Reserved</span>
             </div>
             Power|{"    "}
             <a
@@ -43,9 +43,9 @@ export default function CopyRightDate() {
                 晓婷网络
             </a>
             <span>提供云计算服务</span>
-            <div id='cdn' className='underline font - semibold dark:text - gray - 300 '>
+            <div id='cdn' >
             </div>
-            <div id='hitokoto' className='underline font - semibold dark:text - gray - 300 '>
+            <div id='hitokoto' >
             </div>
         </span>
   )
