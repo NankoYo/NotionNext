@@ -40,9 +40,9 @@ export default function CopyRightDate() {
                 href='https://www.stwl.us.kg/'
                 className='underline font - semibold dark:text - gray - 300 '>
                 晓婷网络
-            </a>{"    "}
-            <span>提供云计算服务</span>
-            当前CDN节点:{"    "}<div id='cdn' >
+            </a>
+            <span>提供云计算服务</span>{"    "}
+            当前CDN节点:<div id='cdn' >
             </div>
             <div id='hitokoto' >
             </div>
