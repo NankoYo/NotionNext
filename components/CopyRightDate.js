@@ -16,25 +16,27 @@ export default function CopyRightDate() {
     <span>
             <div className='whitespace - nowrap flex items - center gap - x - 1'>
                 <i className='fas fa - copyright' />
-                <span>{copyrightDate} NanKoYo丨</span>
+                <span>NanKoYo丨</span>
             </div>
-            <div
-                href='https://vallengine.com/'
+            Power|{"    "}
+            <a
+                href='https://smartpages.nankoyo.com/'
                 className='underline font - semibold dark:text - gray - 300 '>
-                Vallengine
-            </div>
+                Smartpages
+            </a>
+            |{"    "}
             <a
                 href='https://vallengine.com/'
                 className='underline font - semibold dark:text - gray - 300 '>
                 Vallengine
             </a>
-            {"    "}
+            |{"    "}
             <a
                 href='https://www.nankoyo.com/'
                 className='underline font - semibold dark:text - gray - 300 '>
                 南科技术
             </a>
-            {"    "}
+            |{"    "}
             <a
                 href='https://www.stwl.us.kg/'
                 className='underline font - semibold dark:text - gray - 300 '>
