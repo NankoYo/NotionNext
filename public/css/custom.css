@@ -6,3 +6,6 @@
 .fa-info:before {
     content: "\f05a";
 }
+span.whitespace-nowrap {
+    white-space: pre-line;
+}
