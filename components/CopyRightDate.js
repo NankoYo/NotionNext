@@ -35,7 +35,7 @@ export default function CopyRightDate() {
             晓婷网络
           </a>{' '}
           提供云计算服务
-          <br />
+          \n
           <a 
             id='cdn' className='underline font-semibold dark:text-gray-300 '>
           </a>{' '}
