@@ -13,34 +13,30 @@ export default function CopyRightDate() {
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return (
-    <span className='whitespace-nowrap flex items-center gap-x-1'>
+    <div className='whitespace-nowrap flex items-center gap-x-1'>
       <i className='fas fa-copyright' />
-      <span>2024{' '}NanKoYo丨</span>
-      <br />
-      <a
+      <div>2024{' '}NanKoYo丨</div>
+      <div
         href='https://vallengine.com/'
         className='underline font-semibold dark:text-gray-300 '>
         Vallengine
-          </a>{' '}
+      </div>
           丨
-          <a
+      <div
             href='https://www.nankoyo.com/'
             className='underline font-semibold dark:text-gray-300 '>
             南科技术
-          </a>{' '}
+      </div>
           丨
-          <a
+          <div
             href='https://www.stwl.us.kg/'
             className='underline font-semibold dark:text-gray-300 '>
             晓婷网络
-          </a>{' '}
+         </div>
           提供云计算服务
-          \n
-          <a 
+          <div
             id='cdn' className='underline font-semibold dark:text-gray-300 '>
-          </a>{' '}
-          <a id='hitokoto' className='underline font-semibold dark:text-gray-300 '>
-          </a>{' '}
-    </span>
+          <div id='hitokoto' className='underline font-semibold dark:text-gray-300 '>
+    </div>
   )
 }
