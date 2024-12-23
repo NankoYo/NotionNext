@@ -42,7 +42,7 @@ export default function CopyRightDate() {
                 晓婷网络
             </a>
             <span>提供云计算服务</span>
-            <div id='cdn' >
+            当前CDN节点:{"    "}<div id='cdn' >
             </div>
             <div id='hitokoto' >
             </div>
