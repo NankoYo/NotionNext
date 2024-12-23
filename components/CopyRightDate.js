@@ -13,8 +13,8 @@ export default function CopyRightDate() {
     parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return (
-    <div className='whitespace-nowrap flex items-center gap-x-1'>
-      <i className='fas fa-copyright' />
+    <div className='whitespace-nowrap flex items-center gap-x-1'></div>
+      <div className='fas fa-copyright' /></div>
       <div>2024{' '}NanKoYo丨</div>
       <div
         href='https://vallengine.com/'
