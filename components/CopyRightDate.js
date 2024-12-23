@@ -23,19 +23,24 @@ export default function CopyRightDate() {
                 className='underline font - semibold dark:text - gray - 300 '>
                 Vallengine
             </div>
-            丨
-            <div
+            <a
+                href='https://vallengine.com/'
+                className='underline font - semibold dark:text - gray - 300 '>
+                Vallengine
+            </a>
+            {"    "}
+            <a
                 href='https://www.nankoyo.com/'
                 className='underline font - semibold dark:text - gray - 300 '>
                 南科技术
-            </div>
-            丨
-            <div
+            </a>
+            {"    "}
+            <a
                 href='https://www.stwl.us.kg/'
                 className='underline font - semibold dark:text - gray - 300 '>
                 晓婷网络
-            </div>
-            提供云计算服务
+            </a>
+            <span>提供云计算服务</span>
             <div id='cdn' className='underline font - semibold dark:text - gray - 300 '>
             </div>
             <div id='hitokoto' className='underline font - semibold dark:text - gray - 300 '>
