@@ -16,6 +16,7 @@ export default function CopyRightDate() {
     <span className='whitespace-nowrap flex items-center gap-x-1'>
       <i className='fas fa-copyright' />
       <span>2024{' '}NanKoYo丨</span>
+      <br />
       <a
         href='https://vallengine.com/'
         className='underline font-semibold dark:text-gray-300 '>
@@ -34,6 +35,7 @@ export default function CopyRightDate() {
             晓婷网络
           </a>{' '}
           提供云计算服务
+          <br />
           <a 
             id='cdn' className='underline font-semibold dark:text-gray-300 '>
           </a>{' '}
