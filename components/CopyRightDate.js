@@ -18,7 +18,6 @@ export default function CopyRightDate() {
                 <i className='fas fa - copyright' />
                 <a> 2024{"    "}©{"    "}NanKoYo{"    "}All{"    "}Rights{"    "}Reserved</span>
             </div>
-            Power|{"    "}
             <a
                 href='https://smartpages.nankoyo.com/'
                 className='underline font - semibold dark:text - gray - 300 '>
