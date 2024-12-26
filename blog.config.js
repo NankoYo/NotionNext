@@ -134,7 +134,7 @@ const BLOG = {
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_TAG:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || true, // 是否显示标签
 // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: ['https://s4.zstatic.net/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cloudflare_cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://s4.zstatic.net/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/js/v3/api_cdn.js','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
   LAYOUT_SIDEBAR_REVERSE:
