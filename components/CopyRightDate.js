@@ -42,8 +42,16 @@ export default function CopyRightDate() {
                 晓婷网络
             </a>
             <span>提供云计算服务</span>{"    "}
-            <div id='cdn' >
-            </div>
+            <div id='cdnNode' >
+            <div id='visitorCountry' >
+            <div id='httpAccessInfo' >
+            <div id='httpEncryption' >
+            <div id='sni' >
+            <div id='userIP' >
+            <div id='userAgent' > 
+            <div id='keyExchange' >
+            <div id='flInfo' >
+            <div id='hInfo' >
             <div id='hitokoto' >
             </div>
         </span>
