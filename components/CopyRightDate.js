@@ -16,7 +16,7 @@ export default function CopyRightDate() {
     <span>
             <div className='whitespace - nowrap flex items - center gap - x - 1'>
                 <i className='fas fa - copyright' />
-                <span> 2024{"    "}©{"    "}NanKoYo{"    "}All{"    "}Rights{"    "}Reserved</span>
+                <span> 2024{"    "}©{"    "}Nanke Information (HongKong) Network Technology Limited{"    "}All{"    "}Rights{"    "}Reserved</span>
             </div>
             <a
                 href='https://smartpages.nankoyo.com/'
