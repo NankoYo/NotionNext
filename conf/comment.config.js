@@ -10,10 +10,10 @@ module.exports = {
   COMMENT_ARTALK_SERVER: process.env.NEXT_PUBLIC_COMMENT_ARTALK_SERVER || 'https://artalk.nankoyo.com', // ArtalkServert后端地址 https://artalk.js.org/guide/deploy.html
   COMMENT_ARTALK_JS:
     process.env.NEXT_PUBLIC_COMMENT_ARTALK_JS ||
-    'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.js', // ArtalkServert js cdn
+    'https://cdnjs.nankoyo.com/ajax/libs/artalk/2.9.1/Artalk.js', // ArtalkServert js cdn
   COMMENT_ARTALK_CSS:
     process.env.NEXT_PUBLIC_COMMENT_ARTALK_CSS ||
-    'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.css', // ArtalkServert css cdn
+    'https://cdnjs.nankoyo.com/ajax/libs/artalk/2.9.1/Artalk.css', // ArtalkServert css cdn
 
   // twikoo
   COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://twikoo.nankoyo.com', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
@@ -21,7 +21,7 @@ module.exports = {
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || true, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL ||
-    'https://cdn.jsdelivr.net/npm/twikoo@1.6.17/dist/twikoo.all.min.js', // twikoo客户端cdn
+    'https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.all.min.js', // twikoo客户端cdn
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
